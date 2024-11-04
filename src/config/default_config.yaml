@@ -1,0 +1,15 @@
+tesseract_path: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+confidence_threshold: 80
+rois:
+  booster_speed: [350, 904, 100, 40]
+  booster_altitude: [350, 942, 100, 40]
+  timestamp: [902, 942, 170, 50]
+  ship_speed: [1530, 904, 100, 40]
+  ship_altitude: [1530, 942, 100, 40]
+validation:
+  altitude:
+    max_drop: 5
+    max_increase: 2
+  speed:
+    max_range: 40000
+    max_deviation: 1000
